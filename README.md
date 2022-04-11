@@ -2,8 +2,6 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Axel-Soler-Portfolio
-
 Capstone Mycroverse proyect: Mycroverse 2.0.
 
 Page designed for mobiles and desktops devices.
@@ -72,3 +70,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+[Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
