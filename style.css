@@ -12,7 +12,7 @@ body {
 .homePage {
     background-image: url(./images/mobile_intro_bg.png);
     background-repeat: no-repeat;
-    padding-top: 48px;
+    padding-top: 64px;
     background-size: contain;
 }
 .mobileMenu {
@@ -39,7 +39,7 @@ body {
 
 .title h1 {
     font-size: 48px;
-    margin: 0;
+    margin: 16px 0 0 0;
 }
 
 .title p {
@@ -59,7 +59,7 @@ body {
 
 .title h4 {
     font-size: 18px;
-    margin: 0;
+    margin: 8px 0 0 0;
     padding-bottom: 80px;
 }
 
@@ -69,6 +69,7 @@ body {
     align-items: center;
     background-color: #272a32;
     color: #fff;
+    background-image: url(./images/pattern_bg.png);
 }
 
 .cardProgram {
@@ -82,6 +83,17 @@ body {
 
 .cardProgram p {
     width: 50%;
+}
+
+.join {
+    display: flex;
+    background-color: #ec5242;
+    color: #fff;
+    align-items: center;
+    height: 64px;
+    padding: 36px 48px;
+    margin: 16px 0 32px 0;
+    font-size: 16px;
 }
 
 img {
