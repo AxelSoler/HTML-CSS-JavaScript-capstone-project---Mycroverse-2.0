@@ -1,101 +1,167 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@font-face {
+  font-family: 'lato';
+  src: url(./Font/Lato.ttf);
+}
 
 @font-face {
-    font-family: cocogoose;
-    src: url(./Font/Cocogoose.otf);
+  font-family: cocogoose;
+  src: url(./Font/Cocogoose.otf);
 }
 
 .homePage {
-    background-image: url(./images/mobile_intro_bg.png);
-    background-repeat: no-repeat;
-    padding-top: 64px;
-    background-size: contain;
+  background-color: rgb(242, 242, 242);
+  background-image: url(./images/mobile_intro_bg.png);
+  background-repeat: no-repeat;
+  padding-top: 64px;
+  background-size: contain;
 }
 .mobileMenu {
-    position: fixed;
+  position: fixed;
 }
 
 .homePage h3,h1 {
-    color:#ec5242
+  color:#ec5242
 }
 
 .title {
-    display: flex;
-    flex-direction: column;
-    margin-right: 24px;
-    margin-left: 24px;
-    margin-top: 48px;
-    padding: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 48px;
+  padding: 8px;
 }
 
 .title h3 {
-    font-size: 24px;
-    margin-bottom: 0;
+  font-size: 24px;
+  margin-bottom: 0;
 }
 
 .title h1 {
-    font-size: 48px;
-    margin: 16px 0 0 0;
+  font-size: 48px;
+  margin: 16px 0 0 0;
 }
 
 .title p {
-    border: 4px solid #fff;
-    font-size: 16px;
-    margin: 24px 0;
-    padding: 10px 16px;
-    background-color: #f7f7f8;
+  border: 4px solid #fff;
+  font-size: 16px;
+  margin: 24px 0;
+  padding: 10px 16px;
+  background-color: #f7f7f8;
 }
 
 .title h2 {
-    font-family: 'Cocogoose',sans-serif;
-    color: #272a31;
-    font-size: 28px;
-    margin: 0;
+  font-family: 'Cocogoose',sans-serif;
+  color: #272a31;
+  font-size: 28px;
+  margin: 0;
 }
 
 .title h4 {
-    font-size: 18px;
-    margin: 8px 0 0 0;
-    padding-bottom: 80px;
+  font-size: 18px;
+  margin: 8px 0 0 0;
+  padding-bottom: 80px;
 }
 
 .mainProgram {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #272a32;
-    color: #fff;
-    background-image: url(./images/pattern_bg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a32;
+  color: #fff;
+  background-image: url(./images/pattern_bg.png);
 }
 
 .cardProgram {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 16px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  width: 85%;
 }
 
 .cardProgram p {
-    width: 50%;
+  width: 50%;
 }
 
 .join {
-    display: flex;
-    background-color: #ec5242;
-    color: #fff;
-    align-items: center;
-    height: 64px;
-    padding: 36px 48px;
-    margin: 16px 0 32px 0;
-    font-size: 16px;
+  display: flex;
+  background-color: #ec5242;
+  color: #fff;
+  align-items: center;
+  height: 64px;
+  padding: 36px 48px;
+  margin: 16px 0 32px 0;
+  font-size: 16px;
 }
 
-img {
+.imgProgram {
     width: 15%;
+}
+
+.developers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 16px;
+  font-family: 'lato',sans-serif;
+}
+
+.developers h2 {
+  margin-bottom: 8px;
+}
+
+.featureDevelopers {
+  display: grid;
+}
+
+.developerCard {
+  background-image: url(./images/squares.jpg);
+  background-size: 10%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+
+.developerCard img {
+  width: 33.33%;
+  height: 85%;
+  align-self: flex-end;
+  justify-self: flex-end;
+  margin-left: 24px;
+}
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.developer h3 {
+  font-family: 'cocogoose',sans-serif;
+  margin-bottom: 8px;
+}
+
+.developer h4 {
+  font-family: 'lato',sans-serif;
+  font-style: italic;
+  color: #ec5242;
+  margin-top: 0;
+}
+
+.line {
+  width: 10%;
+  border: 1px solid #d3d3d3 ;
+}
+
+.line2 {
+  width: 10%;
+  border: 1px solid #ec5242 ;
+  margin-bottom: 16px;
 }
