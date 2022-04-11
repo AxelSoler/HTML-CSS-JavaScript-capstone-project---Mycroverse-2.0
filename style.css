@@ -74,6 +74,7 @@ body {
   background-color: #272a32;
   color: #fff;
   background-image: url(./images/pattern_bg.png);
+  padding-top: 24px;
 }
 
 .cardProgram {
@@ -110,6 +111,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0 16px;
+  padding: 24px 0;
   font-family: 'lato',sans-serif;
 }
 
@@ -125,16 +127,17 @@ body {
   background-image: url(./images/squares.jpg);
   background-size: 10%;
   background-repeat: no-repeat;
+  background-position-y: 15px;
   display: flex;
   justify-content: space-between;
 }
 
 .developerCard img {
   width: 33.33%;
-  height: 85%;
+  height: 87%;
   align-self: flex-end;
   justify-self: flex-end;
-  margin-left: 24px;
+  margin-left: 12px;
 }
 
 .developer {
