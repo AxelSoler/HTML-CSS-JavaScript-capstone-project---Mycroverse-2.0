@@ -201,3 +201,29 @@ body {
   text-decoration: underline;
   font-weight: bold;
 }
+
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid #d3d3d3;
+  padding-bottom: 48px;
+}
+
+.logoDescription {
+  width: 70%;
+  font-family: 'lato',sans-serif;
+  margin-top: 0;
+}
+
+.imgLogo {
+  width: 80%;
+  margin-top: 24px;
+}
+
+.imgLogo img {
+  width: 80%;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+}
