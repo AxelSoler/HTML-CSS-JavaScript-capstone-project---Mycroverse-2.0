@@ -428,4 +428,26 @@ body {
   .footerDesktop {
     display: block;
   }
+
+  .partnersLogo {
+    width: 80%;
+  }
+
+  .partnersLogo img {
+    margin: 3% 5% 5% 5%;
+    width: 10%;
+    color: #d3d3d3;
+  }
+
+  .partnersLogo img:nth-child(4) {
+    margin-top: 3%;
+  }
+  
+  .partnersLogo img:nth-child(5) {
+    margin-top: 3%;
+  }
+
+  .rights img {
+    width: 35%;
+  }
 }
