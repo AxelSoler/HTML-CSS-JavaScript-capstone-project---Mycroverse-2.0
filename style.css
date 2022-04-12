@@ -43,6 +43,7 @@ body {
 
 .title h1 {
   font-size: 48px;
+  font-family: 'cocogoose',sans-serif;
   margin: 16px 0 0 0;
 }
 
@@ -225,7 +226,7 @@ body {
 }
 
 .imgLogo img {
-  width: 80%;
+  width: 90%;
   border: 1px solid #d3d3d3;
   border-radius: 4px;
 }
@@ -281,4 +282,38 @@ body {
 #secondEvent {
   background: linear-gradient( 0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6) ), url(./images/coding2.jpg) no-repeat top center;
   background-size: cover;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  background-color: #272a31;
+  color: #fff;
+}
+
+.partners h3 {
+  padding: 48px 0 12px 0;
+  margin: 0;
+}
+
+.rights {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.rights img {
+  width: 40%;
+}
+
+.rightsP {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightsP p {
+  margin: 4px;
 }
