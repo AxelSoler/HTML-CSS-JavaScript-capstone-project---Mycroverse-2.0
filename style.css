@@ -481,6 +481,7 @@ body {
   }
 
   .logoDescription2 {
+    display: block;
     width: 70%;
     font-family: 'lato',sans-serif;
     margin-top: 0;
@@ -488,5 +489,9 @@ body {
   
   .logoDescription {
     display: none;
+  }
+
+  .imgLogo {
+    width: 50%;
   }
 }
