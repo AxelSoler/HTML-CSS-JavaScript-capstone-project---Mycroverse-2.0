@@ -207,7 +207,11 @@ body {
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 12px;
+  padding: 0 5%;
 }
 
 .contact p {
@@ -236,6 +240,10 @@ body {
   width: 70%;
   font-family: 'lato',sans-serif;
   margin-top: 0;
+}
+
+.logoDescription2 {
+  display: none;
 }
 
 .imgLogo {
@@ -449,5 +457,36 @@ body {
 
   .rights img {
     width: 35%;
+  }
+
+  .aboutPage .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 24px;
+  }
+
+  .aboutPage .title h3 {
+    display: none;
+  }
+
+  .aboutPage .title h1 {
+    width: 80%;
+  }
+
+  .title p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .logoDescription2 {
+    width: 70%;
+    font-family: 'lato',sans-serif;
+    margin-top: 0;
+  }
+  
+  .logoDescription {
+    display: none;
   }
 }
