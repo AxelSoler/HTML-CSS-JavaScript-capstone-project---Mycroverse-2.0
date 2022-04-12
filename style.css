@@ -411,6 +411,10 @@ body {
     width: 80%;
   }
 
+  .contact {
+    width: 100%;
+  }
+
   .mainProgram h2 {
     margin-bottom: 8px;
   }
