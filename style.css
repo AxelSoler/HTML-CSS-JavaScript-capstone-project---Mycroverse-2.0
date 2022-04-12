@@ -19,6 +19,7 @@ body {
   padding-top: 64px;
   background-size: contain;
 }
+
 .mobileMenu {
   position: fixed;
 }
@@ -56,7 +57,7 @@ body {
 }
 
 .title h2 {
-  font-family: 'Cocogoose',sans-serif;
+  font-family: 'Cocogoose', sans-serif;
   color: #272a31;
   font-size: 28px;
   margin: 0;
@@ -66,6 +67,7 @@ body {
   font-size: 18px;
   margin: 8px 0 0 0;
   padding-bottom: 80px;
+  font-family: 'lato', sans-serif;
 }
 
 .mainProgram {
@@ -76,6 +78,13 @@ body {
   color: #fff;
   background-image: url(./images/pattern_bg.png);
   padding-top: 24px;
+}
+
+.cardsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cardProgram {
@@ -96,6 +105,10 @@ body {
   width: 50%;
 }
 
+.imgProgram {
+  width: 15%;
+}
+
 .join {
   display: flex;
   background-color: #ec5242;
@@ -107,8 +120,8 @@ body {
   font-size: 16px;
 }
 
-.imgProgram {
-    width: 15%;
+.join2 {
+  display: none;
 }
 
 .developers {
@@ -122,6 +135,7 @@ body {
 
 .developers h2 {
   margin-bottom: 8px;
+  font-family: sans-serif;
 }
 
 .featureDevelopers {
@@ -172,6 +186,10 @@ body {
   width: 10%;
   border: 1px solid #ec5242 ;
   margin-bottom: 16px;
+}
+
+.footerDesktop {
+  display: none;
 }
 
 .aboutPage {
@@ -316,4 +334,77 @@ body {
 
 .rightsP p {
   margin: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobileMenu {
+    display: none;
+  }
+
+  .homePage {
+    padding-top: 32px;
+    background-image: url(./images/main_big.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .title {
+    margin-left: 15%;
+    width: 60%;
+  }
+
+  .title p {
+    width: 60%;
+  }
+
+  .mainProgram h2 {
+    margin-bottom: 8px;
+  }
+
+  .cardsContainer {
+    flex-direction: row;
+    width: 75%;
+    align-items: flex-start;
+  }
+
+  .cardProgram {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 2px;
+    min-height: 290px;
+  }
+
+  .cardProgram p {
+    width: 85%;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .imgProgram {
+    width: 50%;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .join2 {
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+    padding: 36px 48px;
+    margin: 16px 0 32px 0;
+    font-size: 16px;
+  }
+  
+  .featureDevelopers {
+    width: 80%;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  }
+
+  .footerDesktop {
+    display: block;
+  }
 }
