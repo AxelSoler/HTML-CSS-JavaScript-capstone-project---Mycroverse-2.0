@@ -279,12 +279,16 @@ body {
   margin-top: 0;
 }
 
+.codingPictures {
+  width: 80%;
+}
+
 .coding {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   color: #fff;
   height: 250px;
   margin-top: 24px;
@@ -379,11 +383,29 @@ body {
 
   .title {
     margin-left: 15%;
-    width: 60%;
+    width: 70%;
+    padding: 0;
   }
 
   .title p {
     width: 60%;
+    text-align: center;
+  }
+
+  .aboutPage .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 24px;
+  }
+
+  .aboutPage .title h3 {
+    display: none;
+  }
+
+  .aboutPage .title h1 {
+    width: 80%;
   }
 
   .mainProgram h2 {
@@ -399,7 +421,7 @@ body {
   .cardProgram {
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0;
+    padding: 12px 0 0 0;
     margin: 2px;
     min-height: 290px;
   }
@@ -459,27 +481,6 @@ body {
     width: 35%;
   }
 
-  .aboutPage .title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 24px;
-  }
-
-  .aboutPage .title h3 {
-    display: none;
-  }
-
-  .aboutPage .title h1 {
-    width: 80%;
-  }
-
-  .title p {
-    text-align: center;
-    width: 100%;
-  }
-
   .logoDescription2 {
     display: block;
     width: 70%;
@@ -493,5 +494,39 @@ body {
 
   .imgLogo {
     width: 50%;
+  }
+
+  .codingPictures {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-bottom: 48px;
+  }
+
+  .coding {
+    width: 48%;
+    height: 150px;
+  }
+
+  .coding h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  
+  .coding p {
+    font-size: 18px;
+  }
+
+  #partner2 {
+    display: none;
+  }
+
+  #rights2 {
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .line2 {
+    width: 5%;
   }
 }
