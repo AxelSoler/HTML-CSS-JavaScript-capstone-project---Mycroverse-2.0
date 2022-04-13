@@ -206,6 +206,10 @@ body {
   border: 1px solid #d3d3d3;
 }
 
+#introduction2 {
+  display: none;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -407,12 +411,21 @@ body {
     width: 80%;
   }
 
-  #introduction2 {
+  .aboutPage .introduction {
     width: 80%;
+  }
+
+  #introduction1 {
+    display: none;
+  }
+
+  #introduction2 {
+    display: block;
   }
 
   .contact {
     width: 100%;
+    padding-bottom: 48px;
   }
 
   .mainProgram h2 {
@@ -534,6 +547,6 @@ body {
   }
 
   .line2 {
-    width: 5%;
+    width: 2%;
   }
 }
