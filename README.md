@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Capstone Mycroverse proyect: Mycroverse 2.0.
+Capstone Microverse proyect: Mycroverse 2.0.
 
 Page designed for mobiles and desktops devices.
 
@@ -12,7 +12,7 @@ Page designed for mobiles and desktops devices.
 - Frameworks
 - Technologies used: GIT, Github, linters
 
-## Live Demo (link to Portfolio webpage)
+## Live Demo (link webpage when Pull Request aproved and merge it)
 
 [Live Demo Link]
 
@@ -29,7 +29,6 @@ To get a local copy up and running follow these simple example steps.
 * git clone https://github.com/AxelSoler/HTML-CSS-JavaScript-capstone-project---Mycroverse-2.0.git
 
 ### Install
-* cd portfolio
 * npm install
 
 ### Usage
@@ -49,7 +48,11 @@ Working a lot!
 
 Author1 👤 
 
-GitHub: @AxelSoler
+GitHub: [@AxelSoler](https://github.com/AxelSoler)
+
+LinkedIn: [Axel Soler](https://www.linkedin.com/in/axel-soler-685985232/)
+
+Twitter: [Axel Soler](https://twitter.com/AxelSoler18)
 
 ## 🤝 Contributing
 
