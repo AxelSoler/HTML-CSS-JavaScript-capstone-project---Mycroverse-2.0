@@ -12,6 +12,10 @@ body {
   src: url(./Font/Cocogoose.otf);
 }
 
+.login {
+  display: none;
+}
+
 .homePage {
   background-color: rgb(242, 242, 242);
   background-image: url(./images/mobile_intro_bg.png);
@@ -548,5 +552,26 @@ body {
 
   .line2 {
     width: 2%;
+  }
+
+  .login {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #272a31;
+    color: #fff;
+    height: 46px;
+  }
+
+  .ulLogin {
+    display: flex;
+    width: 30%;
+    margin-right: 5%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .signImg {
+    width: 24px;
   }
 }
