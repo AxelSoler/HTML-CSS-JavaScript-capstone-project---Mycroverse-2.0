@@ -8,3 +8,9 @@ menu.addEventListener('click', () => {
   closeX.classList.add('active');
   line.classList.add('remove');
 });
+
+closeX.addEventListener('click', () => {
+  options.classList.remove('active');
+  closeX.classList.remove('active');
+  line.classList.remove('remove');
+});
