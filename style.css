@@ -562,6 +562,11 @@ h1 {
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
   }
 
+  .developer {
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+
   .footerDesktop {
     display: block;
   }
