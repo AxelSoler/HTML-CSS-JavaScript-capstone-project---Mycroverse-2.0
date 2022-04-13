@@ -1,7 +1,7 @@
 const menu = document.querySelector('.mobileMenu');
 const options = document.querySelector('.navMenu');
 const closeX = document.querySelector('.closeX');
-const line = document.querySelector('.hamburguer')
+const line = document.querySelector('.hamburguer');
 
 menu.addEventListener('click', () => {
   options.classList.toggle('active');
@@ -21,7 +21,9 @@ document.querySelectorAll('.menu').forEach((n) => n.addEventListener('click', ()
   line.classList.remove('remove');
 }));
 
-developers = [
+
+
+const developers = [
   {
     dev: 'Zavala',
     picture: './images/Zavala.webp',
@@ -74,6 +76,4 @@ for (let i = 0; i < developers.length; i += 1) {
       </div>
     </div>
       `;
-};
-  
-
+}

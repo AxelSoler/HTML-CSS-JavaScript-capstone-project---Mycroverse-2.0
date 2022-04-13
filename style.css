@@ -26,17 +26,16 @@ body {
 }
 
 .navMenu {
-  display: none; 
+  display: none;
 }
 
 .navMenu.active {
-  display: block;
   position: fixed;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-color:rgba(0,0,0,0.8);;
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 5;
 }
 
@@ -99,7 +98,7 @@ body {
 .menu a {
   text-decoration: none;
   font-size: 32px;
-  font-family: 'cocogoose',sans-serif;
+  font-family: 'cocogoose', sans-serif;
   color: #fff;
 }
 
@@ -107,8 +106,9 @@ body {
   margin-top: 20px;
 }
 
-.title h3,h1 {
-  color:#ec5242
+.title h3,
+h1 {
+  color: #ec5242;
 }
 
 .title {
@@ -127,7 +127,7 @@ body {
 
 .title h1 {
   font-size: 48px;
-  font-family: 'cocogoose',sans-serif;
+  font-family: 'cocogoose', sans-serif;
   margin: 16px 0 0 0;
 }
 
@@ -213,7 +213,7 @@ body {
   align-items: center;
   margin: 0 16px;
   padding: 24px 0;
-  font-family: 'lato',sans-serif;
+  font-family: 'lato', sans-serif;
 }
 
 .developers h2 {
@@ -249,12 +249,12 @@ body {
 }
 
 .developer h3 {
-  font-family: 'cocogoose',sans-serif;
+  font-family: 'cocogoose', sans-serif;
   margin-bottom: 8px;
 }
 
 .developer h4 {
-  font-family: 'lato',sans-serif;
+  font-family: 'lato', sans-serif;
   font-style: italic;
   color: #ec5242;
   margin-top: 0;
@@ -262,12 +262,12 @@ body {
 
 .line {
   width: 10%;
-  border: 1px solid #d3d3d3 ;
+  border: 1px solid #d3d3d3;
 }
 
 .line2 {
   width: 10%;
-  border: 1px solid #ec5242 ;
+  border: 1px solid #ec5242;
   margin-bottom: 16px;
 }
 
@@ -325,7 +325,7 @@ body {
 
 .logoDescription {
   width: 70%;
-  font-family: 'lato',sans-serif;
+  font-family: 'lato', sans-serif;
   margin-top: 0;
 }
 
@@ -362,7 +362,7 @@ body {
 
 .eventDescription {
   width: 70%;
-  font-family: 'lato',sans-serif;
+  font-family: 'lato', sans-serif;
   margin-top: 0;
 }
 
@@ -392,12 +392,12 @@ body {
 }
 
 #firstEvent {
-  background: linear-gradient( 0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6) ), url(./images/coding1.jpg) no-repeat top center;
+  background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(./images/coding1.jpg) no-repeat top center;
   background-size: cover;
 }
 
 #secondEvent {
-  background: linear-gradient( 0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6) ), url(./images/coding2.jpg) no-repeat top center;
+  background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.6)), url(./images/coding2.jpg) no-repeat top center;
   background-size: cover;
 }
 
@@ -428,14 +428,6 @@ body {
   color: #d3d3d3;
 }
 
-.partnersLogo img:nth-child(4) {
-  margin-top: 0;
-}
-
-.partnersLogo img:nth-child(5) {
-  margin-top: 0;
-}
-
 .rights {
   display: flex;
   justify-content: space-evenly;
@@ -454,6 +446,14 @@ body {
 
 .rightsP p {
   margin: 4px;
+}
+
+.partnersLogo img:nth-child(4) {
+  margin-top: 0;
+}
+
+.partnersLogo img:nth-child(5) {
+  margin-top: 0;
 }
 
 .navMenu2 {
@@ -555,7 +555,7 @@ body {
     margin: 16px 0 32px 0;
     font-size: 16px;
   }
-  
+
   .featureDevelopers {
     width: 80%;
     display: grid;
@@ -574,14 +574,6 @@ body {
     margin: 3% 5% 5% 5%;
     width: 10%;
     color: #d3d3d3;
-  }
-
-  .partnersLogo img:nth-child(4) {
-    margin-top: 3%;
-  }
-  
-  .partnersLogo img:nth-child(5) {
-    margin-top: 3%;
   }
 
   .rights img {
@@ -657,7 +649,7 @@ body {
   .signImg {
     width: 24px;
   }
-  
+
   .navMenu2 {
     display: flex;
     top: 48px;
@@ -689,5 +681,13 @@ body {
 
   .logo img {
     width: 100%;
+  }
+
+  .partnersLogo img:nth-child(4) {
+    margin-top: 3%;
+  }
+
+  .partnersLogo img:nth-child(5) {
+    margin-top: 3%;
   }
 }
