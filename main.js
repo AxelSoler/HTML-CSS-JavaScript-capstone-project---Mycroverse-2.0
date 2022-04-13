@@ -21,8 +21,6 @@ document.querySelectorAll('.menu').forEach((n) => n.addEventListener('click', ()
   line.classList.remove('remove');
 }));
 
-
-
 const developers = [
   {
     dev: 'Zavala',

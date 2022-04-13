@@ -383,7 +383,7 @@ h1 {
 
 .coding h2 {
   font-size: 36px;
-  font-family: 'cocogoose',sans-serif;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .coding p {
@@ -583,10 +583,10 @@ h1 {
   .logoDescription2 {
     display: block;
     width: 70%;
-    font-family: 'lato',sans-serif;
+    font-family: 'lato', sans-serif;
     margin-top: 0;
   }
-  
+
   .logoDescription {
     display: none;
   }
@@ -611,7 +611,7 @@ h1 {
     font-size: 24px;
     margin-bottom: 0;
   }
-  
+
   .coding p {
     font-size: 18px;
   }
