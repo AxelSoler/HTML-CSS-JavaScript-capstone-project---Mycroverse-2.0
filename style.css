@@ -660,7 +660,6 @@ body {
   
   .navMenu2 {
     display: flex;
-    position: fixed;
     top: 48px;
     width: 100%;
   }
