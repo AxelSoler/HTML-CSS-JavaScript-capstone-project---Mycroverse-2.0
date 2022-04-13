@@ -14,3 +14,9 @@ closeX.addEventListener('click', () => {
   closeX.classList.remove('active');
   line.classList.remove('remove');
 });
+
+document.querySelectorAll('.menu').forEach((n) => n.addEventListener('click', () => {
+  options.classList.remove('active');
+  closeX.classList.remove('active');
+  line.classList.remove('remove');
+}));
