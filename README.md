@@ -9,7 +9,6 @@ Page designed for mobiles and desktops devices.
 ## Built With
 
 - Major languages: HTML, CSS, Javascript
-- Frameworks
 - Technologies used: GIT, Github, linters
 
 ## Live Demo (link webpage when Pull Request aproved and merge it)
