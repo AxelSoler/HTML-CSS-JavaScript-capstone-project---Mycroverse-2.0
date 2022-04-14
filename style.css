@@ -600,6 +600,10 @@ h1 {
     width: 50%;
   }
 
+  #aboutImgLogo {
+    height: 12vh;
+  }
+
   .codingPictures {
     display: flex;
     justify-content: space-between;
