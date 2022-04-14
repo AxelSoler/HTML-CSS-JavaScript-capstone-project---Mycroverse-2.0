@@ -4,18 +4,21 @@ const closeX = document.querySelector('.closeX');
 const line = document.querySelector('.hamburguer');
 
 menu.addEventListener('click', () => {
+  document.body.style.overflow = 'hidden';
   options.classList.toggle('active');
   closeX.classList.add('active');
   line.classList.add('remove');
 });
 
 closeX.addEventListener('click', () => {
+  document.body.style.overflow = '';
   options.classList.remove('active');
   closeX.classList.remove('active');
   line.classList.remove('remove');
 });
 
 document.querySelectorAll('.menu').forEach((n) => n.addEventListener('click', () => {
+  document.body.style.overflow = '';
   options.classList.remove('active');
   closeX.classList.remove('active');
   line.classList.remove('remove');
