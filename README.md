@@ -13,7 +13,7 @@ Page designed for mobiles and desktops devices.
 
 ## Live Demo (link webpage when Pull Request aproved and merge it)
 
-[Live Demo Link]
+[Live Demo Link](https://axelsoler.github.io/HTML-CSS-JavaScript-capstone-project---Mycroverse-2.0/)
 
 
 ## Getting Started
